@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5FD9261CC16D3B007B8818 /* RoutingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FD9251CC16D3B007B8818 /* RoutingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5FD92D1CC16D3C007B8818 /* RoutingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FD9231CC16D3B007B8818 /* RoutingFramework.framework */; };
+		CB5FD9321CC16D3C007B8818 /* RoutingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9311CC16D3C007B8818 /* RoutingFrameworkTests.swift */; };
+		CB5FD93F1CC16E00007B8818 /* MongoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FD93D1CC16E00007B8818 /* MongoDB.framework */; };
+		CB5FD9401CC16E00007B8818 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */; };
+		CB5FD94D1CC16ED1007B8818 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */; };
+		CB5FD9511CC17138007B8818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9501CC17138007B8818 /* main.swift */; };
+		CB5FD9551CC171A5007B8818 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9521CC171A5007B8818 /* MainController.swift */; };
+		CB5FD9561CC171A5007B8818 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9531CC171A5007B8818 /* Routing.swift */; };
+		CB5FD9571CC171A5007B8818 /* Server_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9541CC171A5007B8818 /* Server_Config.swift */; };
+		CB5FD95A1CC171B5007B8818 /* MongoSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9581CC171B5007B8818 /* MongoSchema.swift */; };
+		CB5FD95B1CC171B5007B8818 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD9591CC171B5007B8818 /* UserModel.swift */; };
+		CB5FD9631CC1747C007B8818 /* MongoDB.framework in Resources */ = {isa = PBXBuildFile; fileRef = CB5FD93D1CC16E00007B8818 /* MongoDB.framework */; };
+		CB5FD9641CC1747C007B8818 /* PerfectLib.framework in Resources */ = {isa = PBXBuildFile; fileRef = CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */; };
+		CB5FD9661CC174B6007B8818 /* MongoDB.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB5FD93D1CC16E00007B8818 /* MongoDB.framework */; };
+		CB5FD9671CC174B6007B8818 /* PerfectLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */; };
+		CB5FD96B1CC177A1007B8818 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD96A1CC177A1007B8818 /* JSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5FD92E1CC16D3C007B8818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5FD9221CC16D3B007B8818;
+			remoteInfo = RoutingFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB5FD9651CC174AB007B8818 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CB5FD9661CC174B6007B8818 /* MongoDB.framework in CopyFiles */,
+				CB5FD9671CC174B6007B8818 /* PerfectLib.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB5FD9231CC16D3B007B8818 /* RoutingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FD9251CC16D3B007B8818 /* RoutingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutingFramework.h; sourceTree = "<group>"; };
+		CB5FD9271CC16D3B007B8818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FD92C1CC16D3B007B8818 /* RoutingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FD9311CC16D3C007B8818 /* RoutingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingFrameworkTests.swift; sourceTree = "<group>"; };
+		CB5FD9331CC16D3C007B8818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FD93D1CC16E00007B8818 /* MongoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MongoDB.framework; sourceTree = "<group>"; };
+		CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = "<group>"; };
+		CB5FD9451CC16E57007B8818 /* RoutingServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoutingServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FD9501CC17138007B8818 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CB5FD9521CC171A5007B8818 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CB5FD9531CC171A5007B8818 /* Routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		CB5FD9541CC171A5007B8818 /* Server_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server_Config.swift; sourceTree = "<group>"; };
+		CB5FD9581CC171B5007B8818 /* MongoSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MongoSchema.swift; sourceTree = "<group>"; };
+		CB5FD9591CC171B5007B8818 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CB5FD96A1CC177A1007B8818 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../Sources/JSON.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = /Users/dvaug/Development/test_grounds/Routing/Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5FD91F1CC16D3B007B8818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9401CC16E00007B8818 /* PerfectLib.framework in Frameworks */,
+				CB5FD93F1CC16E00007B8818 /* MongoDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD9291CC16D3B007B8818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD92D1CC16D3C007B8818 /* RoutingFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD9421CC16E57007B8818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD94D1CC16ED1007B8818 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5FD9241CC16D3B007B8818 /* RoutingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD9251CC16D3B007B8818 /* RoutingFramework.h */,
+				CB5FD9271CC16D3B007B8818 /* Info.plist */,
+			);
+			path = RoutingFramework;
+			sourceTree = "<group>";
+		};
+		CB5FD9301CC16D3C007B8818 /* RoutingFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD9311CC16D3C007B8818 /* RoutingFrameworkTests.swift */,
+				CB5FD9331CC16D3C007B8818 /* Info.plist */,
+			);
+			path = RoutingFrameworkTests;
+			sourceTree = "<group>";
+		};
+		CB5FD93A1CC16D70007B8818 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD9581CC171B5007B8818 /* MongoSchema.swift */,
+				CB5FD9591CC171B5007B8818 /* UserModel.swift */,
+				CB5FD9521CC171A5007B8818 /* MainController.swift */,
+				CB5FD9531CC171A5007B8818 /* Routing.swift */,
+				CB5FD9541CC171A5007B8818 /* Server_Config.swift */,
+			);
+			name = Routing;
+			path = /Users/dvaug/Development/test_grounds/Routing/Sources/Routing;
+			sourceTree = "<absolute>";
+		};
+		CB5FD93B1CC16D76007B8818 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD9501CC17138007B8818 /* main.swift */,
+			);
+			name = Server;
+			path = /Users/dvaug/Development/test_grounds/Routing/Sources/Server;
+			sourceTree = "<absolute>";
+		};
+		CB5FD93C1CC16DD3007B8818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD93D1CC16E00007B8818 /* MongoDB.framework */,
+				CB5FD93E1CC16E00007B8818 /* PerfectLib.framework */,
+			);
+			name = Frameworks;
+			path = /Users/dvaug/Development/test_grounds/Routing/Frameworks;
+			sourceTree = "<absolute>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Sources_" /* Sources */,
+				CB5FD93C1CC16DD3007B8818 /* Frameworks */,
+				CB5FD9241CC16D3B007B8818 /* RoutingFramework */,
+				CB5FD9301CC16D3C007B8818 /* RoutingFrameworkTests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD9231CC16D3B007B8818 /* RoutingFramework.framework */,
+				CB5FD92C1CC16D3B007B8818 /* RoutingFrameworkTests.xctest */,
+				CB5FD9451CC16E57007B8818 /* RoutingServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD96A1CC177A1007B8818 /* JSON.swift */,
+				CB5FD93B1CC16D76007B8818 /* Server */,
+				CB5FD93A1CC16D70007B8818 /* Routing */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB5FD9201CC16D3B007B8818 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9261CC16D3B007B8818 /* RoutingFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB5FD9221CC16D3B007B8818 /* RoutingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FD9341CC16D3C007B8818 /* Build configuration list for PBXNativeTarget "RoutingFramework" */;
+			buildPhases = (
+				CB5FD91E1CC16D3B007B8818 /* Sources */,
+				CB5FD91F1CC16D3B007B8818 /* Frameworks */,
+				CB5FD9201CC16D3B007B8818 /* Headers */,
+				CB5FD9211CC16D3B007B8818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutingFramework;
+			productName = RoutingFramework;
+			productReference = CB5FD9231CC16D3B007B8818 /* RoutingFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB5FD92B1CC16D3B007B8818 /* RoutingFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FD9371CC16D3C007B8818 /* Build configuration list for PBXNativeTarget "RoutingFrameworkTests" */;
+			buildPhases = (
+				CB5FD9281CC16D3B007B8818 /* Sources */,
+				CB5FD9291CC16D3B007B8818 /* Frameworks */,
+				CB5FD92A1CC16D3B007B8818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5FD92F1CC16D3C007B8818 /* PBXTargetDependency */,
+			);
+			name = RoutingFrameworkTests;
+			productName = RoutingFrameworkTests;
+			productReference = CB5FD92C1CC16D3B007B8818 /* RoutingFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5FD9441CC16E57007B8818 /* RoutingServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FD9491CC16E57007B8818 /* Build configuration list for PBXNativeTarget "RoutingServer" */;
+			buildPhases = (
+				CB5FD9411CC16E57007B8818 /* Sources */,
+				CB5FD9421CC16E57007B8818 /* Frameworks */,
+				CB5FD9621CC17477007B8818 /* Resources */,
+				CB5FD9651CC174AB007B8818 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutingServer;
+			productName = RoutingServer;
+			productReference = CB5FD9451CC16E57007B8818 /* RoutingServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					CB5FD9221CC16D3B007B8818 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CB5FD92B1CC16D3B007B8818 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CB5FD9441CC16E57007B8818 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "Routing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5FD9221CC16D3B007B8818 /* RoutingFramework */,
+				CB5FD92B1CC16D3B007B8818 /* RoutingFrameworkTests */,
+				CB5FD9441CC16E57007B8818 /* RoutingServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5FD9211CC16D3B007B8818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD92A1CC16D3B007B8818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD9621CC17477007B8818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9631CC1747C007B8818 /* MongoDB.framework in Resources */,
+				CB5FD9641CC1747C007B8818 /* PerfectLib.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5FD91E1CC16D3B007B8818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9561CC171A5007B8818 /* Routing.swift in Sources */,
+				CB5FD95A1CC171B5007B8818 /* MongoSchema.swift in Sources */,
+				CB5FD9551CC171A5007B8818 /* MainController.swift in Sources */,
+				CB5FD96B1CC177A1007B8818 /* JSON.swift in Sources */,
+				CB5FD95B1CC171B5007B8818 /* UserModel.swift in Sources */,
+				CB5FD9571CC171A5007B8818 /* Server_Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD9281CC16D3B007B8818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9321CC16D3C007B8818 /* RoutingFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FD9411CC16E57007B8818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FD9511CC17138007B8818 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5FD92F1CC16D3C007B8818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5FD9221CC16D3B007B8818 /* RoutingFramework */;
+			targetProxy = CB5FD92E1CC16D3C007B8818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB5FD9351CC16D3C007B8818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RoutingFramework/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vigilantestudio.RoutingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB5FD9361CC16D3C007B8818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RoutingFramework/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vigilantestudio.RoutingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB5FD9381CC16D3C007B8818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RoutingFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vigilantestudio.RoutingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5FD9391CC16D3C007B8818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RoutingFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vigilantestudio.RoutingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB5FD94A1CC16E57007B8818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5FD94B1CC16E57007B8818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5FD9341CC16D3C007B8818 /* Build configuration list for PBXNativeTarget "RoutingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FD9351CC16D3C007B8818 /* Debug */,
+				CB5FD9361CC16D3C007B8818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB5FD9371CC16D3C007B8818 /* Build configuration list for PBXNativeTarget "RoutingFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FD9381CC16D3C007B8818 /* Debug */,
+				CB5FD9391CC16D3C007B8818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB5FD9491CC16E57007B8818 /* Build configuration list for PBXNativeTarget "RoutingServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FD94A1CC16E57007B8818 /* Debug */,
+				CB5FD94B1CC16E57007B8818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		"___RootConfs_" /* Build configuration list for PBXProject "Routing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
